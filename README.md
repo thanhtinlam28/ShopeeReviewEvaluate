@@ -16,6 +16,7 @@ dựa vào các review đã được xử lý. Bằng cách cho đầu vào là 
 phân tích quan điểm (Sentiment analysis) đã được huấn luyện trước, ta sẽ gắn nhãn cho
 từng review là tốt (0) hay xấu (1), sau đó tính % review là tốt trên tổng số tất cả các
 review để cho ra điểm cho sản phẩm dựa vào các review về sản phẩm đó.
+Mô hình Sentiment analysis cho tiếng Việt được tham khảo và lấy nguồn từ bài dự thi cuộc thi phân loại sắc thái bình luận tại AIVIVN.COM của user tuanpham1989: https://github.com/tuanpham1989/sentiment_analysis_nal. Chân thành cảm ơn kiến thức của tác giả.
 ######
 (2). Như ở mục tiêu (1), ta lấy dữ liệu là các review đã qua tiền xử lý (đã tokenize)
 để tính toán. Ở mục tiêu (2), ta muốn xét những tính từ trong của 1 review bất kỳ trong
@@ -34,5 +35,8 @@ Sau khi có được bảng tính từ của toàn bộ review, ta duyệt từn
 
 - Tính điểm sản phẩm dựa trên các review
 - Tính độ tin cậy cho từng review.
+
+## Sử dụng
+- Chạy file crawl.ipynb theo thứ tự.
 
   
